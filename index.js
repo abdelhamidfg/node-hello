@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log('hi version 1');
+  console.log('hi version 2');
   console.log(`Server running on http://localhost:${port}/`);
-  console.log(process.env);
+  console.log(process.env.PORT);
 });
